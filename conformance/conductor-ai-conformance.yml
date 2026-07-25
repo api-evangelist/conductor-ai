@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.conductorai.com
+standards:
+- id: fedramp-high
+  conforms: true
+  evidence: >-
+    Website states the platform is FedRAMP High accredited and deployed at multiple
+    classification levels (NIPR IL-5, SIPR IL-6, JWICS).
+- id: dod-il5
+  conforms: true
+  evidence: Deployed on NIPR at Impact Level 5 (IL-5) per website.
+- id: dod-il6
+  conforms: true
+  evidence: Deployed on SIPR at Impact Level 6 (IL-6) per website.
+- id: itar-ear
+  conforms: true
+  evidence: >-
+    Platform is used for ITAR/EAR export-control document review; company operates
+    under export-control compliance.
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI or documented OAuth surface.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public API specification available.
+notes: >-
+  Conductor AI publishes no public developer API, so cross-cutting API standards
+  (OAuth2, OIDC, RFC 9457) cannot be asserted. Compliance posture is drawn from the
+  company's stated government accreditations.

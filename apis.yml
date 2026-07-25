@@ -1,8 +1,28 @@
 aid: conductor-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/conductor-ai.png
 name: Conductor AI
-description: 'Conductor AI is a company surfaced as a portfolio company of lux-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: gov-ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Conductor AI (ConductorAI) is a defense- and intelligence-focused artificial
+  intelligence company that turns disparate policy documents and organizational knowledge
+  into agentic decision trees to accelerate document approvals and complex regulated
+  workflows. Its Conduit platform combines agentic search across structured and unstructured
+  data (Office documents, HTML, images, and video), workflow orchestration that encodes
+  policy and expertise into AI-augmented decision steps, and review-and-collaboration
+  tooling for redactions and compliance checks. Applications include ITAR/EAR export-control
+  review, e-discovery and investigations, security-classification review, FOIA processing,
+  and foreign-disclosure decisions. Conductor AI serves U.S. government and commercial
+  customers and is backed by Lux Capital and Andreessen Horowitz. The company exposes
+  no public developer API; integration is delivered as an enterprise platform.'
 url: https://raw.githubusercontent.com/api-evangelist/conductor-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +32,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Gov Ai
+- Artificial Intelligence
+- Defense
+- Government
+- National Security
+- Compliance
+- Workflow Automation
+- Document Review
+- Agentic AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/conductor-ai-domain-security.yml
+- type: Website
+  url: https://www.conductorai.com
+- type: Blog
+  url: https://www.conductorai.com/news
+- type: Support
+  url: https://www.conductorai.com/contact
+- type: TermsOfService
+  url: https://www.conductorai.com/legal/terms
+- type: GitHubOrganization
+  url: https://github.com/conductorai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/conductor-ai/
+- type: VulnerabilityDisclosure
+  url: security/conductor-ai-vulnerability-disclosure.yml
+- type: Security
+  url: https://conductorai.notion.site/Vulnerability-Reporting-b0c6fe4fec9a40cc8bd7190f701ba716
+- type: Conformance
+  url: conformance/conductor-ai-conformance.yml
+- type: Compliance
+  url: https://www.conductorai.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
