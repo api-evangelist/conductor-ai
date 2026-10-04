@@ -52,9 +52,9 @@ tags:
 - Government
 - National Security
 - Compliance
-- Workflow-Automation
+- Workflow Automation
 - Document Review
-- Agentic AI
+- AI Agents
 tags_raw:
 - Company
 - Gov Ai
@@ -66,6 +66,7 @@ tags_raw:
 - Workflow Automation
 - Document Review
 - Agentic AI
+- Workflow-Automation
 apis: []
 common:
 - type: DomainSecurity
